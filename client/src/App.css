@@ -1,0 +1,38 @@
+.App {
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding:20px;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  background: #333;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 10px;
+  width:200px;
+  outline: none;
+}
+.video {
+  object-fit: contain;
+  width:100%;
+  height:100%;
+  display: none;
+}
+.audio {
+  visibility: hidden;
+  width:0;
+  height:0;
+}
